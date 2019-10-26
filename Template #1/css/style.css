@@ -1,0 +1,203 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#showcase{
+    background: url(/img/pexels-photo-1237073.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: white;
+}
+
+#welcome-content{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 140px 180px;
+    padding: 40px 40px;
+    background-color: rgba(12, 3, 51, 0.432);
+}
+
+#main-btn{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+button.btn:hover{
+    background: rgb(12, 3, 51);
+    outline: none;
+} button.btn:active:focus{
+    outline: none;
+}
+
+/* Newsletter section */
+#contact-header{
+    padding: 30px 30px;
+    text-align: center;}
+    .line1{
+        border-top: 1.5px solid black;
+        width: 110px;}
+        .line2{
+            border-top: 2px solid black;
+            width: 60px;
+        }
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.newsletter{
+    text-align: center;
+    padding: 20px 20px;}
+    #email-id{
+        margin-right: 10px;
+        width: 40vh;
+        padding: 4px;
+        border: 0.5px solid rgb(44, 84, 129) ;
+        border-width: thin;}
+        .btn-news{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            background: whitesmoke;
+            border: 1px solid rgba(29, 29, 29, 0.418);
+            padding: 4px 10px;}
+            .btn-news:hover{
+                transition: 0.3s;
+                border: 1px solid royalblue;
+                background-color: royalblue;
+                color: white;}
+                .card1{
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    padding: 50px 20px;
+                    margin: 30px 50px 35px 50px;
+                }
+
+
+.about{
+    padding: 40px 20px;
+    line-height: 1.8em;}
+    .about-li{
+        background-color: whitesmoke;
+        margin-top: 50px;
+        color: black;
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 4px 4px;}
+        .about-li:hover{
+            text-decoration: none;
+            color: white;
+            background-color: royalblue;
+            transition: 0.3s;
+            border: 1px solid royalblue;
+        }
+
+#heroes{
+    height: 100vh;}
+    .leaders{
+    text-align: center;
+    padding: 70px 10px;}
+    .heroes-header{
+        text-align: center;
+        padding:20px 20px;}
+        .quote{
+            text-align: center;
+            font-style: italic;}
+            .chair-text, .vice-text, .lead-text{
+                padding: 20px 20px;
+                font-style: italic;
+            }
+
+.site-section{
+    height: 70vh;
+    background-color: rgb(32, 32, 32);}
+    .account-li{
+        padding: 20px 20px;
+        text-align: center;
+        color: white;}
+        h4.tour-header, .lang-header, .spo-list-header{
+            text-align: center;}
+            li.east, .lang, .spo{
+                text-decoration: none;
+                list-style: none;}
+                .last-lash{
+                    color: white;
+                    border-top: 1px solid white;}
+                    .end-text{
+                        color: white;
+                        text-align: center;}
+                        .footer{
+                            color: white;
+                            text-align: center;
+                        }
+
+#main-page{
+    background: url(/img/pexels-photo-1036873.jpeg);
+    height: 100vh;}
+    .main-header{
+        text-align: center;
+        padding: 10px;
+    }
+    .card2{
+    box-shadow: 0 6px 10px 0 rgba(26, 26, 26, 0.788);
+    text-align: center;
+    height: 80vh;}
+    .login-header, .sign-up-header{
+        padding: 20px 20px;}
+        .login, .sign-up{
+            text-align: center;
+            padding: 30px;
+            margin-right: 70px;
+            margin-left: 70px;}
+            .email-login, .password-login{
+                text-align: center;
+                border: 1px solid black;
+                padding: 5px 0;
+                width: 300px;}
+                .login-submit, .sign-up-btn{
+                    border: 1px solid black;
+                    background:none;
+                    padding: 5px 10px;}
+                    .login-submit:hover, .sign-up-btn:hover{
+                        transition: 0.5s;
+                        border: none;
+                        color: white;
+                        background-color: royalblue;}
+                        .form{
+                            margin-top: 10%;}
+                            .new-name, .new-email, .new-password{
+                                text-align: center;
+                                border: 1px solid black;
+                                padding: 5px 0;
+                                width: 300px;}
+                                .sign-up-btn{
+                                    margin-top: 20px;
+                                }
+
+
+
+#about-page{
+    background-size: cover;
+}
+    .about-content{
+        margin-top: 80px;;
+    }
+    .about-footer{
+        margin-top: 60px;
+        color: black;}
+        .about-hr{
+            border-top: 1px solid black;}
+            .gallery-header{
+                padding: 20px 20px;
+                text-align: center;
+            }
+            .gallery{
+                text-align: center;
+               padding: 20px 20px;
+            }
